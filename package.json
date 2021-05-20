@@ -21,8 +21,8 @@
   "author": "Adam Josefus",
   "main": "./dist/main.js",
   "scripts": {
-    "build": "snowpack build",
-    "build:watch": "snowpack build --watch",
+    "build": "snowpack build && tsc",
+    "dev": "snowpack build --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
