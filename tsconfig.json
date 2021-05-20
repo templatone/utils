@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "watch": true,
+    "strict": true,
+    "target": "esNext",
+    "module": "esNext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "preserveConstEnums": false,
+    "declaration": true
+    
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*"
+  ]
+}
