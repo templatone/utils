@@ -9,13 +9,13 @@
     "regexp",
     "oscillators"
   ],
-  "homepage": "https://github.com/templatone/components#readme",
+  "homepage": "https://github.com/templatone/utils#readme",
   "bugs": {
-    "url": "https://github.com/templatone/components/issues"
+    "url": "https://github.com/templatone/utils/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/templatone/components.git"
+    "url": "git+https://github.com/templatone/utils.git"
   },
   "license": "CC-BY-NC-ND-4.0",
   "author": "Adam Josefus",
