@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
-    "noEmit": true,
-    "watch": true,
+    "isolatedModules": true,
+    "declarationDir": "./lib",
     "strict": true,
     "target": "esNext",
     "module": "esNext",
     "moduleResolution": "node",
     "experimentalDecorators": true,
-    "preserveConstEnums": false,
-    "declaration": true
-    
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
   },
   "include": [
-    "./src/**/*"
+    "src/**/*"
   ],
   "exclude": [
-    "./node_modules/**/*"
+    "node_modules"
   ]
 }
