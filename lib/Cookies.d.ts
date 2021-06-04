@@ -1,10 +1,5 @@
 export declare class Cookies {
     static get(name: string): string | null;
-    /**
-     *
-     * @param cookieName
-     * @param cookieValue
-     * @param expiration Expiration in miliseconds.
-     */
-    static set(cookieName: string, cookieValue: string | null, expiration: number): void;
+    static set(name: string, value: string, expiration: number): void;
+    static delete(name: string): void;
 }

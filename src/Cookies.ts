@@ -21,18 +21,17 @@ export class Cookies {
     }
 
 
-    /**
-     * 
-     * @param cookieName 
-     * @param cookieValue 
-     * @param expiration Expiration in miliseconds.
-     */
-    static set(cookieName: string, cookieValue: string|null, expiration: number) {
+    static set(name: string, value: string, expiration: number) {
         const date = new Date();
         date.setTime(date.getTime() + expiration);
 
         const expires = "expires=" + date.toUTCString();
-        document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+
+    static delete(name: string) {
+        Cookies.set(name, '', -1);
     }
 
 }
