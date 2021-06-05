@@ -4,6 +4,7 @@ export type StyleType = 'normal' | 'italic' | 'oblique';
 export type WeightType = 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | 'normal' | 'bold';
 export type StretchType = 'ultra-condensed' | 'extra-condensed' | 'condensed' | 'semi-condensed' | 'normal' | 'semi-expanded' | 'expanded' | 'extra-expanded' | 'ultra-expanded';
 export type VariantType = 'normal' | 'small-caps';
+export type ConfigType = WebFont.Config;
 
 
 export type FontVariationType = {
